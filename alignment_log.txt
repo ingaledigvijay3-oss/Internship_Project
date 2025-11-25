@@ -1,0 +1,27 @@
+=== Caption Preparation + Data Alignment (COCO) ===
+Date/Time: 2025-11-13 14:53:20
+Year: 2014, Split: train2014
+Subset images requested: 50
+Unique files referenced: 50, Downloaded now: 50 in 52.35s
+Total aligned caption rows: 251, Skipped images (no filename): 0
+Tokenizer MAX_LEN: 17 (T_in_out=16)
+Caption length stats (incl. <start>/<end>): min=9, p95=16, max=28
+Pad counts per sample (target): min=0, max=8
+OOV tokens in subset: 11/3093 = 0.36%
+First batch shapes: feats=(16, 2048), X_in=(16, 16), Y_out=(16, 16), W=(16, 16)
+Feature vector example (first row, first 5 vals): [0.053123388439416885, 0.038219623267650604, 0.5897897481918335, 0.31992998719215393, 0.7930019497871399]
+[sample 0] image_id=472938, file=COCO_train2014_000000472938.jpg
+          caption='<start> a vine covered home with a garden terrace and wooden bench ...'
+          ids(len=13): [2, 4, 4398, 131, 350, 9, 4, 802, 6350, 10, 99, 105] ...
+[sample 1] image_id=472938, file=COCO_train2014_000000472938.jpg
+          caption='<start> a courtyard area features a climbing tree climbing up a brick ...'
+          ids(len=20): [2, 4, 1691, 106, 957, 4, 1308, 134, 1308, 35, 4, 348] ...
+[sample 2] image_id=472938, file=COCO_train2014_000000472938.jpg
+          caption='<start> a wooden bench sitting in front of a window <end> ...'
+          ids(len=11): [2, 4, 99, 105, 14, 8, 41, 6, 4, 126, 3] ...
+[sample 3] image_id=472938, file=COCO_train2014_000000472938.jpg
+          caption='<start> a tan building facade with a bench out front <end> ...'
+          ids(len=11): [2, 4, 875, 72, 4730, 9, 4, 105, 87, 41, 3] ...
+[sample 4] image_id=472938, file=COCO_train2014_000000472938.jpg
+          caption='<start> a window surrounded by ivy plants and a bench <end> ...'
+          ids(len=11): [2, 4, 126, 402, 49, 4358, 632, 10, 4, 105, 3] ...
